@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 const CustomButton = ({ onClick, children, className, ...other }) => {
   return (
     <button
-      className={`px-2 py-3 hover:bg-[#f3ad87] min-w-[200px] rounded duration-300 text-white hover:text-black ${className}`}
+      className={`px-4 py-2 hover:bg-yellow-400 border-yellow-400 min-w-[150px] rounded transition-colors duration-300 text-white hover:text-black ${className}`}
       onClick={onClick}
       {...other}
     >

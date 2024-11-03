@@ -1,15 +1,15 @@
 import React from "react";
 import CustomButton from "./CustomButton";
-
+import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <>
       <header className='p-4 shadow-xl bg-black/90 text-white backdrop-blur-lg sticky top-0 right-0 left-0'>
         <nav className='flex justify-around items-center gap-4'>
-          <div className='w-1/3 flex justify-center items-center text-yellow-400 font-semibold text-2xl transform transition-transform duration-300 hover:scale-105'>
-            Logo
+          <div className='w-1/3 cursor-pointer flex justify-center items-center text-yellow-400 font-semibold text-2xl transform transition-transform duration-300 hover:scale-105'>
+            <Link to='/'>Logo</Link>
           </div>
-          <div className='w-1/3 flex justify-center items-center'>
+          <div className='w-1/3 hidden  md:flex justify-center items-center'>
             <ul className='flex gap-6 text-gray-300'>
               {["Features", "Solutions", "Pricing"].map((item) => (
                 <li

@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        mono: ['"Space Mono"', "Roboto"],
+        gilroy: ["GilroyRegular"],
       },
     },
   },

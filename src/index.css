@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "GilroyRegular";
+  src: url("./assets/fonts/Gilroy/Gilroy-Regular.ttf") format("truetype");
+}
+
+@layer base {
+  body {
+    @apply font-gilroy;
+  }
+}

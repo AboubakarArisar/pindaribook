@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <>
       <main className='w-full h-screen bg-black flex flex-col justify-center items-center gap-8'>
-        <h1 className='text-yellow-400 text-3xl md:text-7xl font-mono tracking-wide'>
+        <h1 className='text-yellow-400 text-3xl md:text-7xl tracking-wide'>
           Collect, Connect, Conquer
         </h1>
         <h1 className='text-yellow-500 opacity-50 text-3xl md:text-7xl font-mono tracking-wide'>

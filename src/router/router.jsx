@@ -6,6 +6,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import ContactUs from "../pages/ContactUs";
 import Login from "../pages/Login";
+import PrivacyPolicy from "../pages/PrivacyPolicy";
 
 const AppRouter = () => {
   return (
@@ -16,6 +17,7 @@ const AppRouter = () => {
         <Route path='*' element={<PageNotFound />} />
         <Route path='/contact' element={<ContactUs />} />
         <Route path='/login' element={<Login />} />
+        <Route path='/privacy' element={<PrivacyPolicy />} />
       </Routes>
       <Footer />
     </>

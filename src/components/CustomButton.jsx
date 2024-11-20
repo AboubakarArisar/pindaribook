@@ -23,7 +23,7 @@ CustomButton.propTypes = {
 
 CustomButton.defaultProps = {
   type: "button",
-  className: "",
+  className: "default-class",
 };
 
 export default CustomButton;

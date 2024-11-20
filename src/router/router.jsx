@@ -7,6 +7,9 @@ import Footer from "../components/Footer";
 import ContactUs from "../pages/ContactUs";
 import Login from "../pages/Login";
 import PrivacyPolicy from "../pages/PrivacyPolicy";
+import Pricing from "../pages/Pricing";
+import Features from "../pages/Features";
+import Solution from "../pages/Solution";
 
 const AppRouter = () => {
   return (
@@ -18,6 +21,9 @@ const AppRouter = () => {
         <Route path='/contact' element={<ContactUs />} />
         <Route path='/login' element={<Login />} />
         <Route path='/privacy' element={<PrivacyPolicy />} />
+        <Route path='/pricing' element={<Pricing />} />
+        <Route path='/features' element={<Features />} />
+        <Route path='/solutions' element={<Solution />} />
       </Routes>
       <Footer />
     </>

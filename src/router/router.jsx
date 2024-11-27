@@ -10,6 +10,7 @@ import PrivacyPolicy from "../pages/PrivacyPolicy";
 import Pricing from "../pages/Pricing";
 import Features from "../pages/Features";
 import Solution from "../pages/Solution";
+import Firstpage from "../pages/Firstpage";
 
 const AppRouter = () => {
   return (
@@ -17,6 +18,7 @@ const AppRouter = () => {
       <Navbar />
       <Routes>
         <Route path='/' element={<Home />} />
+        <Route path='/start' element={<Firstpage />} />
         <Route path='*' element={<PageNotFound />} />
         <Route path='/contact' element={<ContactUs />} />
         <Route path='/login' element={<Login />} />

@@ -1,7 +1,9 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import CustomButton from "../components/CustomButton";
 
 const Home = () => {
+  const navigate = useNavigate();
   return (
     <>
       <main className='w-full h-screen bg-[rgb(249 246 242)] flex flex-col justify-center items-center gap-8 '>
@@ -11,7 +13,7 @@ const Home = () => {
         <h1 className='font-gilroy font-bold text-green-600 opacity-50 text-3xl md:text-7xl tracking-wide'>
           Academics
         </h1>
-        <CustomButton onClick={() => console.log("Button clicked!")}>
+        <CustomButton onClick={() => navigate("/start")}>
           Start Learning
         </CustomButton>
       </main>
